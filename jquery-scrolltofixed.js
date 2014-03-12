@@ -184,6 +184,8 @@
             position = 'absolute';
         }
 
+        this.setAbsolute = setAbsolute;
+
         // Sets the target element back to unfixed. Also, hides the spacer.
         function setUnfixed() {
             // Only unfix the target element and the spacer if we need to.
